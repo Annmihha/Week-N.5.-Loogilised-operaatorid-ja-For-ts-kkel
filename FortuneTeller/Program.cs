@@ -13,7 +13,7 @@ namespace FortuneTeller
             Random rnd = new Random();
             int userNumber = rnd.Next(0, predictions.Length);
 
-            Console.WriteLine($"Hello! Today you will {predictions[userNumber]}.");
+            Console.WriteLine($"Hello! Tomorrow you will {predictions[userNumber]}.");
 
         }
     }
